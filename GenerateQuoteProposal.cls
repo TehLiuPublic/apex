@@ -1,6 +1,6 @@
 public with sharing class GenerateQuoteProposal {
 /*
-ExecuteAnonymous the following
+ExecuteAnonymous the following code in developer console
 QuoteProposalModel model = new QuoteProposalModel();
 model.quoteId = 'Add your quote ID'; //
 model.templateId = 'Add your SBQQ QuoteTemplate ID';
