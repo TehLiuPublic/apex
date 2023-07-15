@@ -6,8 +6,8 @@ QuoteProposalModel model = new QuoteProposalModel();
     model.quoteId = 'Add your quote ID';  // Required
     model.templateId = 'Add your SBQQ QuoteTemplate ID'; // Required
 
-    model.outputFormat = 'Add pdf or word'; // Optional defaults to pdf
-    model.language = 'The language code. Defaults to en_US'; //Optional defaults to en_US
+    model.outputFormat = 'Add pdf or MS Word'; // Optional defaults to pdf
+    model.language = 'The language code. Defaults to en_US'; //Optional defaults to en_US, nl_NL, de_DE, da_DK, sv_SE
     model.paperSize = ' Add your value here'; // Optional values are Default, Letter, Legal, A4
     model.name = ' Give a name or take default value QuoteNumber-YYYYMMDD-XXXX'; // This field is optional
     
