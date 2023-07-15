@@ -1,5 +1,5 @@
 public with sharing class GenerateQuoteProposal {
-/*
+/*********** 
 ExecuteAnonymous the following code in developer console
 https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_api.meta/cpq_dev_api/cpq_api_quoteproposal_model.htm
 QuoteProposalModel model = new QuoteProposalModel();
