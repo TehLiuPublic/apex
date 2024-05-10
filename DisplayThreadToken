@@ -1,0 +1,14 @@
+<apex:component controller="ThreadTokenController" access="global">
+    <!-- Call this visualforce component in your classic email template or 
+		<c:DisplayThreadToken currentCaseId="CASE ID GOES HERE" />
+	-->
+    <!-- 
+		This will call ThreadTokenController.getemailToken and pass parameter currentCaseId
+	-->
+    <apex:attribute name="currentCaseId" type="String" assignTo="{!emailToken}" description="Input parameter for processing" />
+    
+    <!--
+		This will fetch data from ThreadTokenController.getemailToken method
+    -->
+    <apex:outputText value="{!emailToken}" />
+</apex:component>
